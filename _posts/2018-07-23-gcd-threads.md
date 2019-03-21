@@ -43,11 +43,17 @@ iOS提供的多线程API有：pthread、NSThread、GCD、NSOperationQueue。
 * NSObject的两个方法：`performSelectorOnMainThread: withObject: waitUntilDone:`和`performSelectorInBackground: withObject:`
 
 ### GCD
+
 #### 先看看同步、异步与队列的关系
-||主队列(串行队列)|全局队列(并行队列)|串行队列|并行队列|
-|:-----:|:----|:----|:----|:----|
+
+|----
+|主队列(串行队列)|全局队列(并行队列)|串行队列|并行队列|
+|:----|:----|:----|:----|:----|
 |同步(sync)|**串行**执行、**没有**新线程|**串行**执行、**没有**新线程|**串行**执行、**没有**新线程|**串行**执行、**没有**新线程|
+|----
 |异步(async)|**串行**执行、**没有**新线程|**并行**执行、**有**新线程(多)|**串行**执行、**有**新线程(一)|**并行**执行、**有**新线程(多) |
+|----
+{: rules="groups"}
 
 > 主队列不管是同步还是异步都不具备开启新线程的能力，执行方式都是同步执行。
 > 
@@ -56,5 +62,7 @@ iOS提供的多线程API有：pthread、NSThread、GCD、NSOperationQueue。
 > 在异步执行时，开不开启新线程要看队列：如果是串行队列就开启一条新线程；如果是并行队列就开启多条线程。
 
 ### 创建队列
-`dispatch_queue_create(label, attr)`label：是
+
+`dispatch_queue_create(label, attr)` label：是
+
 > 创建队列时注意：
