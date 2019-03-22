@@ -5,10 +5,11 @@ description:        "无善无恶心之体，有善有恶意之动。知善知�
 reading_time:       true
 words_per_minute:   200
 logo:               'assets/img/favicons/apple-icon-114x114.png'
-background:         'assets/img/placeholder-big.jpg'
-tiled_bg:           false   # Set this true if you want to tile your background image, otherwise it will be covered
+background:         'assets/img/blog_back.jpeg'
+# Set this true if you want to tile your background image, otherwise it will be covered
+tiled_bg:           false
 locale:             en_US
-url:                '' #http://blog.alirio.top 
+url:                '' #http://blog.alirio.top
 
 # Jekyll
 permalink:          /:title/
@@ -26,7 +27,7 @@ sass:
   style:            compressed
 
 # Comments
-# disqus_shortname:   alirio
+disqus_shortname:   alirio
 
 # Social
 # if you don't have any of social below, comment the line.
