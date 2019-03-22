@@ -1,6 +1,6 @@
 ---
 title: "mathjax-video-image"
-date: 2019-03-19 17:26:45
+date: 2019-03-21 17:26:45
 [comment]: <> (文章简介，列表页显示)
 introduction: "MathJax Video and Images post example."
 [comment]: <> - tagName

@@ -1,6 +1,6 @@
 ---
 title: "Markdown Syntax"
-date: 2019-03-19 17:16:00
+date: 2018-07-20 12:19:44
 [comment]: <> (文章简介，列表页显示)
 introduction: "Just about everything you'll need to style in the theme: headings, paragraphs, blockquotes, tables, code blocks, and more."
 [comment]: <> - tagName
@@ -11,7 +11,7 @@ tags: [teach]
 layout: post
 project: false
 [comment]: <> image url
-feature: 
+feature: "http://i.imgur.com/Ds6S7lJ.png"
 comments: false
 ---
 

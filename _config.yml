@@ -1,14 +1,14 @@
 # Site
 title:              Alirio.Lau
 bio:                '知行合一，止于至善。'
-description:        "无善无恶心之体，\n有善有恶意之动。\n知善知恶是良知，\n为善去恶是格物。"
+description:        "无善无恶心之体，有善有恶意之动。知善知恶是良知，为善去恶是格物。"
 reading_time:       true
 words_per_minute:   200
 logo:               'assets/img/favicons/apple-icon-114x114.png'
 background:         'assets/img/placeholder-big.jpg'
 tiled_bg:           false   # Set this true if you want to tile your background image, otherwise it will be covered
 locale:             en_US
-url:                '' #https://taylantatli.github.io/Moon
+url:                '' #http://blog.alirio.top 
 
 # Jekyll
 permalink:          /:title/
@@ -73,4 +73,4 @@ jekyll-mentions:
     base_url: https://github.com
 
 # Exclude list
-exclude: [README.md, Gemfile, Gemfile.lock, node_modules, gulpfile.js, package.json, _site, src, vendor, CNAME, LICENSE, Rakefile]
+exclude: [README.md, Gemfile, Gemfile.lock, node_modules, gulpfile.js, package.json, _site, src, vendor, CNAME, LICENSE, Rakefile, initpost.sh]
