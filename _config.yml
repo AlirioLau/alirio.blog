@@ -5,7 +5,7 @@ description:        "无善无恶心之体，有善有恶意之动。知善知�
 reading_time:       true
 words_per_minute:   200
 logo:               'assets/img/favicons/apple-icon-114x114.png'
-background:         'assets/img/blog_back.jpeg'
+background:         'assets/img/blog_back.jpg'
 # Set this true if you want to tile your background image, otherwise it will be covered
 tiled_bg:           false
 locale:             en_US
