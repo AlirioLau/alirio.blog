@@ -7,11 +7,6 @@
   //   $("#close").hide();
   // });
 
-  $("#fade").click(function(){
-    $("#fade").removeClass("slide");
-    $("#search").show();
-  });
-
   // Search
   var bs = {
     close: $(".icon-remove-sign"),
