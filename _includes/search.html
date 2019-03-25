@@ -1,3 +1,5 @@
+{% include svg-icons.html %}
+
 <div class="search-wrapper">
   <div class="search-form">
       <input type="text" class="search-field" placeholder="Search...">
@@ -7,7 +9,9 @@
 </div>
 
 <div id="fade" class="overlay"></div>
-<a id="slide" class="slideButton fade">
-  <svg id="open" class="icon-menu"><use xlink:href="#icon-menu"></use></svg>
-  <svg id="close" class="icon-menu"><use xlink:href="#icon-close"></use></svg>
-</a>
+
+<button id="search" class="search-button dosearch">
+  <svg class="icon-search">
+    <use xlink:href="#icon-search"></use>
+  </svg>
+</button>
