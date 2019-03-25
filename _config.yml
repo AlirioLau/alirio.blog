@@ -9,7 +9,7 @@ background:         'assets/img/blog_back.jpg'
 # Set this true if you want to tile your background image, otherwise it will be covered
 tiled_bg:           false
 locale:             en_US
-url:                '' #http://blog.alirio.top
+url:                'https://blog.alirio.top' #https://blog.alirio.top
 
 # Jekyll
 permalink:          /:title/
