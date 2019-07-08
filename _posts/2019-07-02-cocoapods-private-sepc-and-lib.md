@@ -22,7 +22,9 @@ comments: true
 ### 创建私有Spec Repo库
 
 1、创建一个名为 MySpec 的git仓库。
+
 2、初始化仓库。(可以使用README初始化，这一步很重要)
+
 3、然后添加到pod：
 
 ```
@@ -33,8 +35,11 @@ pod repo add MySpec git@github.com:aliriolau/MySpec.git
 ### 创建AlirioTestLib工程
 
 1、创建名为`AlirioTestLib`的工程。
+
 2、在工程里创建`AlirioTestLib.podspec`、`LICENSE`、`README`文件。
+
 3、添加源代码到项目。
+
 4、将 MyLib提交到 Lib git库，并且打tag，Spec Repo是按照tag索引 Lib。
 
 ### 验证 .podspec文件
@@ -67,7 +72,9 @@ pod search AlirioTestLib
 ### 使用
 
 1、在`podfile`中添加`source 'git@gitee.com:alirio/MySpec.git'`
+
 2、`pod 'AlirioTestLib'`
+
 3、`pod install`
 
 ### 删除 Lib
