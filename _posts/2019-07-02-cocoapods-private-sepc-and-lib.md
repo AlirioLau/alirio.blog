@@ -71,7 +71,7 @@ pod search AlirioTestLib
 
 ### 使用
 
-1、在`podfile`中添加`source 'git@github.com:alirio/MySpec.git'`
+1、在`podfile`中添加`source 'git@github.com:aliriolau/MySpec.git'`
 
 2、`pod 'AlirioTestLib'`
 
