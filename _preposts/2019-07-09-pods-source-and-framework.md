@@ -16,7 +16,17 @@ feature:
 comments: true
 ---
 
-由于Pod仓库拆分过多，最后在主工程打包编译时会花费大量的时间，所以目前把大部分基础的组件增加了对应的SDK Target，在开发对应模块时编译出对应的SDK，主工程直接Pod对应模块的framework，加快打包编译的速度。而一些首页tab的模块改动频繁，与业务关联较大，有时也可以不编译成SDK。
+### 简介
+
+项目中使用Pod私有库，可能会拆分很多Pod私有库，最后在主工程打包编译时会花费大量的时间。为了解决这个问题，就在每个模块增加了一个Framework Target，在开发对应模块时编译出对应的Framework，主工程直接Pod对应模块的Framework，加快打包编译的速度。
+
+### 步骤
+
+#### 创建Framework的Target
+
+如下图所示，创建名为`ALPodSourceAndFrameworkSDK`的Framework。
+
+
 
 项目中两个target，原则上是互不相关的。 
 
