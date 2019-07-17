@@ -25,6 +25,8 @@ comments: true
 * `Download Container...`保存文件
 * `显示包内容`查看
 
+![01](/assets/images/2019-07-16-ios-zhenjitiaoshi-01.jpg)
+
 ### App内H5页面调试
 
 H5调试是通过MacOS和iPhone的`Safari`进行调试的。
@@ -33,7 +35,7 @@ H5调试是通过MacOS和iPhone的`Safari`进行调试的。
 
 在`Safari`偏好设置中打开`开发菜单`
 
-![01](/assets/images/2019-07-16-ios-zhenjitiaoshi-01.jpg)
+![02](/assets/images/2019-07-16-ios-zhenjitiaoshi-02.jpg)
 
 #### 设置iPhone `Safari`
 
@@ -45,3 +47,5 @@ H5调试是通过MacOS和iPhone的`Safari`进行调试的。
 * Mac OS端`Safari`选择`开发`
 * 选择真机`xxx的iPhone`
 * 点击要调试的页面`xxxx.html`
+
+![03](/assets/images/2019-07-16-ios-zhenjitiaoshi-03.jpg)
