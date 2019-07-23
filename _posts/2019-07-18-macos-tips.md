@@ -9,7 +9,7 @@ tag:
 - Tips
 - Xcode
 [comment]: <> [tagName1, tagName2]
-tags: [tips, macos, svn, xcode]
+tags: [tips, macos, svn, git, xcode, DS_Store]
 layout: post
 project: false
 [comment]: <> image url
@@ -27,6 +27,20 @@ comments: true
 find . -type d -name ".svn"|xargs rm -rf
 或者
 find . -type d -iname ".svn" -exec rm -rf {} \; 
+```
+
+### 移除git库中的`.DS_Store`
+
+* 删除`.DS_Store`
+
+```shell
+find . -name .DS_Store -print0 | xargs -0 git rm -f --ignore-unmatch
+```
+
+* 将`.DS_Store`添加到`.gitignore`
+
+```shell
+echo .DS_Store >> ~/.gitignore
 ```
 
 ### Terminal进入Finder的当前目录
