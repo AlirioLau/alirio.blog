@@ -154,7 +154,9 @@ sudo /Applications/Install\ OS\ X\ El\ Capitan.app/Contents/Resources/createinst
 ```
 
 > 指令解析：
-> `安装文件名”安装 OS X EI Captian.app”中间空格用 "\" 转译。` 
-> `OSX为u盘名称，可以为其他的，但必须为英文。`
+>
+> `安装文件名"安装 OS X EI Captian.app"中间空格用 "\" 转译。` 
+>
+> `OSX 为u盘名称，可以为其他的，但必须为英文。`
 
 3、开机按住option（⌥），选中制作的u盘启动，就可以装系统了。
