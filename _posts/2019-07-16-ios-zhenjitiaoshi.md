@@ -5,8 +5,6 @@ date: 2019-07-16 15:00:56
 introduction: iOS-真机调试Webview和查看真机沙盒文件
 [comment]: <> - tagName
 tag:
-- iOS
-- device
 [comment]: <> [tagName1, tagName2]
 tags: [iOS, device]
 layout: post

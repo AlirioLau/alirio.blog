@@ -5,8 +5,6 @@ date: 2019-07-09 14:55:14
 introduction: 支持Source和Framework两种模式的Pod私有库
 [comment]: <> - tagName
 tag:
-- iOS
-- Pods
 [comment]: <> [tagName1, tagName2]
 tags: [iOS, Pods, Framework]
 layout: post

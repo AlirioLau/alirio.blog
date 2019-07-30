@@ -5,9 +5,8 @@ date: 2019-07-27 11:15:37
 introduction: iPhone 机型尺寸信息
 [comment]: <> - tagName
 tag:
-- iPhone
 [comment]: <> [tagName1, tagName2]
-tags: [iPhone]
+tags: [iPhone, sizeInfo]
 layout: post
 project: false
 [comment]: <> image url

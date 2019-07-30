@@ -5,11 +5,8 @@ date: 2019-07-18 15:01:03
 introduction: MacOS 常用的，容易忘记的小技巧。
 [comment]: <> - tagName
 tag:
-- MacOS
-- Tips
-- Xcode
 [comment]: <> [tagName1, tagName2]
-tags: [tips, macos, svn, git, xcode, DS_Store]
+tags: [macos, xcode, svn, git, DS_Store]
 layout: post
 project: false
 [comment]: <> image url

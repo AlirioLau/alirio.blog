@@ -5,8 +5,6 @@ date: 2019-07-29 19:10:09
 introduction: Pod私有库不支持X86_64库（模拟器）编译问题
 [comment]: <> - tagName
 tag:
-- iOS
-- Pods
 [comment]: <> [tagName1, tagName2]
 tags: [iOS, pods]
 layout: post
@@ -46,3 +44,59 @@ sudo cp validator.rb validator.rb.bak
 如下图所示：注释掉`992~1001`，添加`command += %w(--help)`即可。
 
 ![01](/assets/images/2019-07-29-pod-private-repo-unsupport-x86_64-lib-01.jpg)
+
+### Cocoapods安装&卸载（Gem）
+
+#### 安装到指定目录
+
+```shell
+sudo gem install -n /usr/local/bin cocoapods
+```
+
+#### 查看Gem所有安装的软件
+
+```shell
+gem list
+```
+
+#### 卸载
+
+```shell
+gem uninstall xxx
+```
+
+#### 安装指定版本
+
+```shell
+sudo gem install cocoapods -v 1.6.1
+```
+
+#### 如果没有xcodeproj需要安装
+
+```shell
+sudo gem install xcodeproj
+```
+
+#### 查看Cocoapods安装目录
+
+```shell
+gem which cocoapods
+```
+
+### Cocoapods安装&卸载（homebrew）
+
+#### 安装
+
+```shell
+brew install cocoapods
+```
+
+#### 卸载
+
+```shell
+brew uninstall cocoapods
+```
+
+#### 安装指定版本
+
+参考[这里](https://segmentfault.com/a/1190000015346120)

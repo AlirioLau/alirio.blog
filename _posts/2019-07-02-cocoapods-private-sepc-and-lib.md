@@ -5,10 +5,8 @@ date: 2019-07-02 14:39:06
 introduction: CocoaPods创建私有仓库和Lib
 [comment]: <> - tagName
 tag:
-- iOS
-- Cocoapods
 [comment]: <> [tagName1, tagName2]
-tags: [iOS, Cocoapods, pod]
+tags: [iOS, Cocoapods, pods]
 layout: post
 project: false
 [comment]: <> image url
