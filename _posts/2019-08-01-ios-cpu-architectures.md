@@ -21,14 +21,19 @@ CPU架构是CPU厂商给属于同一系列的CPU产品定的一个规范，主�
 #### 模拟器
 
 i386：iphone5和iphone5c及以下的模拟器（32位）。
+
 x86_64：iPhone5s及以上的模拟器（64位）。
 
 #### 真机
 
 armv6：iPhone、iPhone2、iPhone3G、iPod Touch(第一代)、iPod Touch(第二代)（32位）。
+
 armv7：iPhone3Gs、iPhone4、iPhone4s、iPad、iPad 2（32位）。
+
 armv7s：iPhone5、iPhone5c（32位）。
+
 arm64：iPhone5s、iPhone6、iPhone6p、iPhone6s、iPhone6sp、iPhone7、iPhone7p、iPhone8、iPhone8p、iPhoneX（64位）。
+
 arm64e：iPhone XS、iPhone XS Max、iPhone XR（64位）。
 
 ### Xcode编译
