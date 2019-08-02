@@ -134,3 +134,27 @@ lipo -info libSecureSQLite3_fat.a
 ```
 
 .a版本制作合并完毕！
+
+### 项目使用
+
+#### 使用Framework
+
+将对应的Framework添加到工程，比如：`SecureSQLite3_fat.framework`，需要将`SecureSQLite3_fat.framework`重命名为`SecureSQLite3.framework`。因为在创建Framework的时候名字为`SecureSQLite3`，与之对应的`module name`也为：`SecureSQLite3`。这样才能正确的引用到Framework可执行文件。
+
+添加编译宏：`SQLITE_HAS_CODEC`（在`Build Settings`中`Preprocessor Macros`中添加）。
+
+引入头文件就可以使用API了（`#import <SecureSQLite3/SecureSQLite3.h>`）。
+
+#### 使用.a
+
+将对应的Framework添加到工程，比如：`libSecureSQLite3_fat.a`。与Framework不同，.a库可以随意修改名字，只要工程中不重名就可以。还需要将`wxsqlite3`源代码中的`sqlite3.h`头文件添加到工程。
+
+添加编译宏：`SQLITE_HAS_CODEC`（在`Build Settings`中`Preprocessor Macros`中添加）。
+
+引入头文件就可以使用API了（`#import "sqlite3.h"`）。
+
+### 相关链接
+
+[wxsqlite3](https://github.com/utelle/wxsqlite3)
+
+[sqlite3](https://www.sqlite.org/index.html)
